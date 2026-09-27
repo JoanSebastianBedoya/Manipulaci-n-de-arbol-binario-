@@ -5,6 +5,7 @@ public class ArbolInventario {
     public void insertar(Producto nuevo){
         if (raiz == null) {
             raiz = nuevo;
+            System.out.println("\nProducto insertado correctamente.");
             return;
         } 
 
@@ -18,13 +19,15 @@ public class ArbolInventario {
     
     public void insertarRecursivo(Producto nuevo, Producto actual){
         if (nuevo.getId() == actual.getId()) {
-            System.out.println("El producto con ID: " + nuevo.getId() + " ya existe en el inventario.");
+            System.out.println("\nEl producto con ID: " + nuevo.getId() + " ya existe en el inventario.");
             return;
         }
        
         else if (nuevo.getId() < actual.getId()) {
             if (actual.getIzquierdo() == null) {
                 actual.setIzquierdo(nuevo);
+                System.out.println("\nProducto insertado correctamente.");
+
             } else {  
                 insertarRecursivo(nuevo, actual.getIzquierdo());
             }
@@ -32,6 +35,7 @@ public class ArbolInventario {
         } else {
             if (actual.getDerecho() == null) {
                 actual.setDerecho(nuevo);
+                System.out.println("\nProducto insertado correctamente.");
             } else {   
                 insertarRecursivo(nuevo, actual.getDerecho());
             }   
@@ -53,7 +57,7 @@ public class ArbolInventario {
             inordenRecursivo(actual.getIzquierdo());
         } 
 
-        System.out.println("ID: " + actual.getId() + ", Nombre: " + actual.getNombre());
+        System.out.println("\nID: " + actual.getId() + " - Nombre: " + actual.getNombre());
 
         if (actual.getDerecho() != null) {
             inordenRecursivo(actual.getDerecho());
@@ -63,7 +67,7 @@ public class ArbolInventario {
 
     public void buscar(int id){
         if (raiz == null) {
-            System.out.println("No hay id registrados, el inventario esta vacio");
+            System.out.println("\nNo hay id registrados, el inventario esta vacio");
             return;
         }
         
@@ -74,7 +78,7 @@ public class ArbolInventario {
     private void buscarRecursivo(int id, Producto actual){
        
         if (actual.getId() == id) {
-            System.out.println("ID: " + actual.getId() + ", Nombre: " + actual.getNombre());
+            System.out.println("=".repeat(60) + "\n\nID: " + actual.getId() + " \nNombre: " + actual.getNombre());
             return;
         }
 
@@ -82,14 +86,14 @@ public class ArbolInventario {
             if (actual.getIzquierdo() != null) {
                 buscarRecursivo(id, actual.getIzquierdo());
             } else {
-                System.out.println("No se encontro el producto con ID: " + id);
+                System.out.println("=".repeat(60) + "\nNo se encontro el producto con ID: " + id);
             }
         } else {
             
             if (actual.getDerecho() != null) {
                 buscarRecursivo(id, actual.getDerecho());
             } else {
-                System.out.println("No se encontro el producto con ID: " + id);
+                System.out.println("=".repeat(60) + "\nNo se encontro el producto con ID: " + id);
             }
         } 
 
