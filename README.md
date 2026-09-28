@@ -37,9 +37,9 @@ Cada vez que haya un producto en las referencias, el método se llamara nuevamen
 Este escenario ocurre en los 2 casos tanto si el id del nuevo producto es menor o mayor al id del producto actual, ya que en ambos casos, si la referencia izquierda o derecha no es nula, se ejecutara nuevamente el método con el producto actual actualizado.
    
 <p align="center">
-  <img width="300" alt="imagen" src="https://github.com/user-attachments/assets/10d25077-06f4-4e03-b543-58646efe3e37" />
-  <img width="300" alt="imagen" src="https://github.com/user-attachments/assets/d641fb96-4071-4f87-8bf5-123bb1f262f5" />
-  <img width="300" alt="imagen" src="https://github.com/user-attachments/assets/4373fdc2-96d7-4780-93f1-121e39f6179d" />
+  <img width="200" alt="imagen" src="https://github.com/user-attachments/assets/10d25077-06f4-4e03-b543-58646efe3e37" />
+  <img width="200" alt="imagen" src="https://github.com/user-attachments/assets/d641fb96-4071-4f87-8bf5-123bb1f262f5" />
+  <img width="200" alt="imagen" src="https://github.com/user-attachments/assets/4373fdc2-96d7-4780-93f1-121e39f6179d" />
 </p>
           
 Errores de inserción: En caso de que el id registrado ya existe, el método no modifica las referencias izquierda o derecha. Por el contrario, imprime un mensaje de error y termina la ejecución del método. Esto evita que se creen nodos duplicados en el árbol.
@@ -129,8 +129,8 @@ Anunciando que el numero no se encontró en el árbol.
            
             
 <p align="center">
-  <img width="425" height="880" alt="imagen" src="https://github.com/user-attachments/assets/09642549-d075-47ca-807c-16e476c992b9" />
-  <img width="425" height="880" alt="imagen" src="https://github.com/user-attachments/assets/6122958a-6634-47d5-82c7-a461a61ac418" />
+  <img width="300" height="880" alt="imagen" src="https://github.com/user-attachments/assets/09642549-d075-47ca-807c-16e476c992b9" />
+  <img width="300" height="880" alt="imagen" src="https://github.com/user-attachments/assets/6122958a-6634-47d5-82c7-a461a61ac418" />
 </p>
 
 **Errores de búsqueda:** El primer método buscar, evalúa si la raíz es nula, en caso de que lo sea, imprime un mensaje de error y termina la ejecución del método. Esto evita que se ejecute el método buscarRecursivo con un producto nulo.
