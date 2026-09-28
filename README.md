@@ -11,7 +11,7 @@ a su padre. (en este caso el 49 se encuentra mas abajo del 25, pero en recorrido
                          / \       /  \
                         x   49     x    x
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Insertar:**
 El método insertar, sera quien nos permita agregar un nuevo producto al árbol. El comportamiento de la inserción busca evaluar la existencia de un producto en la izquierda o derecha,
@@ -48,7 +48,7 @@ Errores de inserción: En caso de que el id registrado ya existe, el método no 
   <img width="500" height="200" alt="imagen" src="https://github.com/user-attachments/assets/2fed0b3a-860b-4048-8bf4-d7be47f59d88" />
 </p>
    
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     
 **Recorrer inorden:**
 El método inorden evalúa si la raíz es nula, caso contrario, ejecuta el método inordenRecursivo. el método inordenRecursivo es quien se encarga de recorrer el árbol y mostrar los datos de los productos en orden.
@@ -91,7 +91,7 @@ y una vez termine el método de 30, termina también el método de 25 y el méto
   <img width="559" height="226" alt="imagen" src="https://github.com/user-attachments/assets/4fc83fea-e145-4339-9184-895743d8e6e3" />
 </p>
    
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     
 **Buscar por id:** 
 El método buscar, evalúa si la raíz es nula, en caso de que no lo sea, ejecuta el método buscarRecursivo.
@@ -139,7 +139,7 @@ Anunciando que el numero no se encontró en el árbol.
   <img width="557" height="192" alt="imagen" src="https://github.com/user-attachments/assets/4046dea8-162d-490b-b9bb-23df2e29cca9" />
 </p>
              
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
        
 **Video:**
 https://drive.google.com/file/d/1bLT2nMLMRlajJFN8j5d9MRA5wMcLFpOV/view?usp=sharing
